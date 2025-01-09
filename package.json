@@ -1,8 +1,8 @@
 {
-  "name": "bundletool",
+  "name": "bundletoolheavy",
   "version": "1.1.7",
   "description": "An unoficial wrapper around google's bundletool",
-  "repository": "github:Ribeiro-Tiago/bundletool",
+  "repository": "github:alancasre133/bundletoolHeavy",
   "main": "lib/index.js",
   "scripts": {
     "build": "rm -rf lib .bundletool && tsc",
@@ -15,27 +15,14 @@
     "google"
   ],
   "author": {
-    "email": "tiagoribeiro.1803@gmail.com",
-    "name": "Tiago Ribeiro",
-    "url": "https://tiago-ribeiro.com"
+    "email": "sabritonrex@gmail.com",
+    "name": "alan castro",
+    "url": "https://alancasre133.com"
   },
   "contributors": [
-    {
-      "name": "Noah Prail",
-      "url": "https://github.com/nprail"
-    },
-    {
-      "name": "Josh Pike",
-      "url": "https://github.com/jpike88"
-    },
-    {
-      "name": "Christian Zommerfelds",
-      "url": "https://github.com/zommerfelds"
-    }
   ],
   "license": "AGPL-3.0-or-later",
   "dependencies": {
-    "axios": "^0.21.1",
     "command-exists": "^1.2.9",
     "mkdirp": "^1.0.4"
   },
@@ -44,5 +31,9 @@
     "@types/node": "^14.0.13",
     "prettier": "^2.0.5",
     "typescript": "^3.9.5"
-  }
+  },
+  "files": [
+        "bundletoolfile",
+        "bundletool-all-1.17.2.jar"
+    ]
 }
